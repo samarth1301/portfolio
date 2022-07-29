@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import TopButton from "../../components/topButton/TopButton";
+import Certifications from "../../containers/certifications/Certifications";
 import Greeting from "../../containers/greeting/Greeting";
 import Skills from "../../containers/skills/Skills";
 import Contact from "../contact/ContactComponent";
@@ -17,6 +18,7 @@ class Home extends Component {
         <Greeting theme={this.props.theme} />
         <Skills theme={this.props.theme} />
         <Education theme={this.props.theme} />
+        {/* <Certifications theme={this.props.theme}/> */}
         <Experience theme={this.props.theme} />
         <Projects theme={this.props.theme} />
         <Contact theme={this.props.theme} />
